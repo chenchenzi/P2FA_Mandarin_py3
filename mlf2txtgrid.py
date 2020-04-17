@@ -1,9 +1,11 @@
+# adapted from Jiahong Yuan by Chenzi Xu in Dec 2019
+# Use: python mlf2textgrid.py test.mlf
 import tempfile
 import codecs
 
 
 def readAlignedMLF(mlffile, SR, wave_start):
-    # This reads a MLFalignment output  file with phone and word
+    # This reads a MLF alignment output file with phone and word
     # alignments and returns a list of words, each word is a list containing
     # the word label followed by the phones, each phone is a tuple
     # (phone, start_time, end_time) with times in seconds.

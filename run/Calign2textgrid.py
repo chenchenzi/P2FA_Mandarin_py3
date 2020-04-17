@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# adapted from Jiahong Yuan by Chenzi Xu in Dec 2019
 
 """ Usage:
       Calign.py [options] wavfile trsfile output_file
