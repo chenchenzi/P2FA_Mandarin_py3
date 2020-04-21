@@ -9,3 +9,4 @@ Modified Python3 P2FA for Mandarin
 ```
 $ python Calign2textgrid.py test.wav test.txt test.Textgrid
 ```
+For more information: https://chenzixu.rbind.io/resources/forcedalignment/
