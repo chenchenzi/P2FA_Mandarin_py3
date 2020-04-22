@@ -9,11 +9,13 @@ If you have installed these:
 - [x] SoX (Sound eXchange)
 
 Then you can:
-* Clone this repository
-* Add .wav files and corresponding transcript .txt files into the `/run` directory.
-* In Terminal, navigate to the `/run` directory:
+1. Clone this repository
+2. Add a `filename.wav` file and its corresponding transcript `filename.txt` file into the `/run` directory.
+3. In Terminal, navigate to the `/run` directory:
 
 ```
-$ python Calign2textgrid.py test.wav test.txt test.Textgrid
+$ python Calign2textgrid.py filename.wav filename.txt filename.Textgrid
 ```
-Feel free to refer to a detailed step-by-step guide: https://chenzixu.rbind.io/resources/forcedalignment/
+The output `filename.Textgrid` is the corresponding time-aligned .Textgrid file.
+
+#### A detailed step-by-step guide: https://chenzixu.rbind.io/resources/forcedalignment/
