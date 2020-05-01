@@ -11,7 +11,8 @@ If you have installed these:
 Then you can:
 1. Clone this repository
 2. Add a `filename.wav` file and its corresponding transcript `filename.txt` file into the `/run` directory.
-3. In Terminal, navigate to the `/run` directory:
+3. Open the `Calign2textgrid.py` in your editor and **modify** the path of your `/run` folder in line 21 `HOMEDIR = ` (You can find the path by dragging the folder into the Terminal on a Mac)
+4. In Terminal, navigate to the `/run` directory:
 
 ```
 $ python Calign2textgrid.py filename.wav filename.txt filename.Textgrid
