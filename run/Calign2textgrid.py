@@ -185,9 +185,9 @@ def writeTextGrid(outfile, word_alignments):
     fw.write(str(phons[-1][-1]) + '\n')
     fw.write(str(len(wrds)) + '\n')
     for k in range(len(wrds) - 1):
-        fw.write(str(wrds[k][1]) + '\n')
-        fw.write(str(wrds[k+1][1]) + '\n')
-        fw.write('"' + wrds[k][0] + '"' + '\n')
+        fw.write(str(wrds[k][1]).encode('utf-8') + '\n')
+        fw.write(str(wrds[k+1][1]).encode('utf-8') + '\n')
+        fw.write('"' + wrds[k][0].encode('utf-8') + '"' + '\n')
 
     fw.write(str(wrds[-1][1]) + '\n')
     fw.write(str(phons[-1][2]) + '\n')
