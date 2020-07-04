@@ -60,7 +60,7 @@ def writeTextGrid(outfile, word_alignments):
         wrds.append([wrd[0], wrd[1][1], wrd[-1][2]])
 
     # write the phone interval tier
-    fw = open(outfile, 'w', encoding='utf-8')
+    fw = open(outfile, 'w')
     fw.write('File type = "ooTextFile short"\n')
     fw.write('"TextGrid"\n')
     fw.write('\n')
