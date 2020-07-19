@@ -16,7 +16,7 @@ import wave
 import codecs
 import io
 
-HOMEDIR = '/Users/xuchenzi/Desktop/Forced_Aligner_Mandarin'
+HOMEDIR = '/Users/xuchenzi/Documents/phonetics/P2FA_Mandarin/run'
 MODEL_DIR = HOMEDIR + '/model'
 
 missing = io.open('MissingWords', 'w', encoding='utf8')
